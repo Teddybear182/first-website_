@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="login-container">
+    <h2>Login</h2>
+    <form action="login.html" method="post">
+      <div class="input-group">
+        <label for="username">
+          <img src="user.png" alt="" width="15px">
+          Username
+        </label>
+        <input type="text" id="username" name="username" placeholder="Enter your username" required>
+      </div>
+      <div class="input-group">
+        <label for="password">
+          <img src="lock.png" alt="" width="15px">
+          Password
+        </label>
+        <input type="password" , id="password" , name="password" , placeholder="Enter your password" required>
+      </div>
+      <input type="checkbox" class="login-checkbox">remember me</input>
+      <button type="submit" class="login-btn">Login</button>
+      <div class="create-account">
+        <label for="text">don't have an account?</label>
+        <a href="register.html">create one!</a>
+      </div>
+      <div class="create-account">
+        <label for="text">forgot password?</label>
+        <a href="reset-password.html">reset password</a>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
